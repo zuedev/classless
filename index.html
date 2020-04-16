@@ -14,27 +14,95 @@
   <body>
     <header>
       <nav>
-        <a href="#url1">Link 1</a>
-        <a href="#url2">Link 2</a>
-        <a href="#url3">Link 3</a>
+        <a href="javascript:goto('#home')">Home</a>
+        <a href="javascript:goto('#cookbook')">Cookbook</a>
       </nav>
     </header>
     <main>
-      <h1>zCSS: Classy Classless CSS</h1>
-      <hr />
-      <h2>What is this?</h2>
-      <p>
-        I'm really picky with my CSS styling, and I hate class-heavy CSS
-        frameworks, so I made this! The main goal of this project is to provide
-        a lightweight, clean-looking, and style-agnostic base that I like the
-        look of.
-      </p>
-      <h2>What does it look like?</h2>
-      <p>
-        You're looking at it right now!
-      </p>
-      <h2>How do I get it?</h2>
-      <pre><code>&lt;link rel="stylesheet" href="https://zuedev.github.io/zCSS/zcss.css" /&gt;</code></pre>
+      <div id="home">
+        <h1>zCSS: Classy Classless CSS</h1>
+        <hr />
+        <h2>What is this?</h2>
+        <p>
+          I'm really picky with my CSS styling, and I hate class-heavy CSS
+          frameworks, so I made this! The main goal of this project is to
+          provide a lightweight, clean-looking, and style-agnostic base that I
+          like the look of.
+        </p>
+        <h2>What does it look like?</h2>
+        <p>
+          You're looking at it right now! For a more detailed breakdown, check
+          out the <a href="javascript:goto('#cookbook')">cookbook</a>.
+        </p>
+        <h2>How do I get it?</h2>
+        <pre><code>&lt;link rel="stylesheet" href="https://zuedev.github.io/zCSS/zcss.css" /&gt;</code></pre>
+        <p>All syntax highlighting provided by <a href="https://highlightjs.org/">highlight.js</a> (GitHub theme)</p>
+      </div>
+      <div id="cookbook">
+        <hr />
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>
+          This is a paragraph of text but did you ever hear the tragedy of Darth
+          Plagueis the Wise? I thought not. It's not a story the Jedi would tell
+          you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith,
+          so powerful and so wise he could use the Force to influence the
+          midichlorians to create life... He had such a knowledge of the dark
+          side that he could even keep the ones he cared about from dying. The
+          dark side of the Force is a pathway to many abilities some consider to
+          be unnatural. He became so powerful... the only thing he was afraid of
+          was losing his power, which eventually, of course, he did.
+          Unfortunately, he taught his apprentice everything he knew, then his
+          apprentice killed him in his sleep. It's ironic he could save others
+          from death, but not himself.
+        </p>
+        <table>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+          <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+        </table>
+        <pre><code>// Your First C++ Program
+
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}</code></pre>
+        <form>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" value="John">
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" value="Doe">
+          <input type="submit" value="Submit">
+        </form> 
+      </div>
     </main>
     <footer>
       Made with <love></love> by
