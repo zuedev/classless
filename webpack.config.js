@@ -5,10 +5,8 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: ["css-loader"],
+        use: ["style-loader", "css-loader"],
       },
     ],
   },
-  // TODO: pull from compilable CSS instead (SCSS?)
-  plugins: [new CopyPlugin([{ from: "src/main.css", to: "main.css" }])],
 };
