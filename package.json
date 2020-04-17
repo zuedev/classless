@@ -3,7 +3,8 @@
   "description": "Classy Classless CSS Framework",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
