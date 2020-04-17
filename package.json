@@ -1,0 +1,22 @@
+{
+  "name": "zCSS",
+  "description": "Classy Classless CSS Framework",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuedev/zCSS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zuedev/zCSS/issues"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.2",
+    "highlight.js": "^9.18.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
