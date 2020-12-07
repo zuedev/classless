@@ -1,4 +1,4 @@
-const CopyPlugin = require("copy-webpack-plugin");
+const path = require('path');
 
 module.exports = {
   module: {
@@ -8,5 +8,9 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
     ],
+  },
+  output: {
+    filename: 'build.js',
+    path: path.resolve(__dirname),
   },
 };
