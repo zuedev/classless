@@ -6,7 +6,7 @@ I'm really picky with my CSS styling, and I hate class-heavy CSS frameworks, so 
 
 ## What does it look like?
 
-You can check it out live in action here: https://zuedev.github.io/zCSS
+You can check it out live in action here: https://zuedev.github.io/classless
 
 ## How do I get it?
 
